@@ -8,8 +8,7 @@ body {
 header {
   padding: 3em 1em 2em 1em;
   text-align: center;
-  background:
-    url(summermenu/images/gooseshadow.png) 90% bottom no-repeat;
+  background: url(summermenu/images/gooseshadow.png) 90% bottom no-repeat;
   background-color: rgba(255, 255, 255, 0.384);
   border: 2px solid #d1633c;
   box-shadow: .1em .1em .2em rgb(172, 172, 172);
