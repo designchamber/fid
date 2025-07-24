@@ -1,0 +1,76 @@
+body {
+    background: #faf2e4 url(images/sunburst.svg) no-repeat center 50px fixed;
+    margin: 2% 10%;
+    font-family: sans-serif;
+}
+header {
+    background-color: #faf2e4;
+    border: 2px solid #d1633c;
+    box-shadow: .1em .1em .2em rgb(172, 172, 172)
+}
+h1 {
+    font: 3em "Engagement", Georgia, serif;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: .1em .1em .2em rgb(172, 172, 172);
+}
+h2 {
+    color: #d1633c;
+    font-size: x-large;
+}
+h3 {
+    color: #bd5029;
+    font-size: larger;
+}
+#logo {
+    text-align: center;
+    margin-top: 15px;
+}
+nav {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: large
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color:#d13c3c;
+}
+a:visited {
+  color: #cf6868;
+}
+a:hover {
+  color: #ff2020;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+a:active {
+  color: #ff0000;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
