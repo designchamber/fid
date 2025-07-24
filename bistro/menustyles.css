@@ -3,17 +3,13 @@ body {
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
-  background: #faf2e4 url(images/blackgoose.png) no-repeat center 100px fixed;
-/*  background-image: url(images/bullseye.png);
-  background-position: center 200px; */
+  background: #faf2e4 url(summermenu/images/blackgoose.png) no-repeat center 100px fixed;
 }
 header {
   padding: 3em 1em 2em 1em;
   text-align: center;
   background:
-    url(images/column.png) left top no-repeat,
-    url(images/column.png) right top no-repeat,
-    url(images/gooseshadow.png) 90% bottom no-repeat;
+    url(summermenu/images/gooseshadow.png) 90% bottom no-repeat;
   background-color: rgba(255, 255, 255, 0.384);
   border: 2px solid #d1633c;
   box-shadow: .1em .1em .2em rgb(172, 172, 172);
