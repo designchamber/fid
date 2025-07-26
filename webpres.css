@@ -1,0 +1,73 @@
+body {
+    background:#8dbbff url(images/clouds.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 2% 12%;
+    font-family: sans-serif;
+}
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.384);
+}
+h1 {
+    color:#001d53;
+    font-family: "Yatra One", Georgia, serif;
+    font-weight: 600;
+    font-size: 3em;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+h2 {
+    color:#002a79;
+    font-family: "Yatra One", sans-serif;
+    font-size:xx-large;
+    font-weight: 600;
+}
+h3 {
+    font-family: "Oregano", sans-serif;
+    font-size: 1.5em;
+    color:#001d53;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 10px
+}
+p, nav {
+    color:#001d53;
+    font-family: "NTR", sans-serif;
+    font-size: 1.30em
+}
+ul {
+    list-style-type:none
+}
+li {
+    padding-right: 2.5%;
+}
+table {
+    margin-left: 5.5%;
+    padding-top: 1%
+}
+td {
+    text-align: center;
+}
+#info {
+    background-color: rgba(255, 255, 255, 0.384);
+    text-align: center;
+    padding: 2%
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color:#4f00a8;
+}
+a:visited {
+  color: #6e469cd5;
+}
+a:hover {
+  color: #5f00cc;
+}
+a:active {
+  color: #7700ff;
+}
