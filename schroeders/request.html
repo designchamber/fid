@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mrs. Schroeder's Flowers</title>
+        <link href="https://fonts.googleapis.com/css2?family=Diphylleia&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="mainstyles.css">
+    </head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Mrs. Schroeder's" height="350" width="350" id="top">
+        <h1>Mrs. Schroeder's Flower Shop</h1>
+    </header>
+    <div id="belowhead">
+        <nav>
+            <a href="s-index.html">Home</a>  |   
+            <a href="store.html">Store Information</a>  |   
+            <a href="request.html">Request</a>
+        </nav>
+    </div>
+
+    <section id="info">
+    <h2>Flower Request Center</h2>
+    <p>
+        Is there a certain flower you're seeking that you don't see in our inventory?
+        Let us know! Tell us what flower you want, in which color, and we may have it 
+        in store within the next few weeks.
+    </p><br>
+    <small>
+        Requested flowers are not guaranteed to be added to the stores inventory. Flowers
+        may take weeks to months to become available. Please be patient! If you have any questions,
+        please <a href="store.html">contact us</a>.
+    </small>
+
+    <form class="request" action="#" method="post"><fieldset>
+        <legend>Flower Request Form</legend>
+        <label for="flower-type">Flower Species:</label> <input type="text" name="flowerspecies" id="flower-type"><br>
+        <label for="flower-color">Flower Color:</label> <input type="text" name="flowercolor" id="flower-color"><br>
+        <label for="flower-seeds">Are you interested in seeds? Or just the flower?:</label>
+        <select name="Seeds or Flower?" size="1" id="flower-seeds">
+            <option>Flower</option>
+            <option>Seeds</option>
+            <option>Both</option>
+        </select><br>
+        <label for="additional-information">Any additional information?:</label><br>
+        <textarea name="information" rows="4" cols="60" maxlength="800"
+        placeholder="No more than 800 characters long" id="additional-information"></textarea>
+        <p><input type="submit" value="Submit request"><input type="reset"></p>
+    </fieldset></form>
+    </section>
+    <footer>
+    <nav><small>
+        <a href="s-index.html">Home</a> |
+        <a href="request.html">Request Flowers</a> |
+        <a href="store.html">Store Information</a> 
+    </small></nav>
+        <div id="copyright">
+        <small>Copyright &copy; 2025 Schroeder Family. Designed by Barbara Chambers.</small>
+        </div>
+    </footer>
+
+</body>
+</html>
